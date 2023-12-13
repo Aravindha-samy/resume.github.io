@@ -1,12 +1,64 @@
 @import 'colors';
 
-
-
-
-body {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: $font-family;
-    font-size: $base-font-size;
-    background-color: $Bg-color;
+}
+
+
+
+    
+ .page-header{
+        color:$Bg-color ;
+        background-color: $Mainbody-Color;
+    }
+
+    body {
+        color: $Mainbody-Color; /* Cool Grayish-Blue */
+      }
+      hr{
+        color: aqua;
+    }
+     
+.container{
+    background-color:$Mainbody-Color;
+    padding: 30px 20px;
+    
+    border-color:5px solid $Heading-Color-1;
+   
+
+    h2{
+        color: $Bg-color;
+        font-size: $font-size-xxl;
+        
+    }
+   
+    
+    i {
+        color: $Heading-Color-1; /* Warm Sandy */
+      }
+    
+    p{
+       
+        font-size: $font-size-l;
+        b{
+            color: $Heading-Color-2;
+            font-size: $font-size-xl;
+        }
+    }
+    ul li{
+        
+        font-size: $font-size-l; 
+    }
+    a{
+        color:$Heading-Color-2;
+    }
+    a:hover{
+        color: $Highlight-Color;
+        transition: 0.3s ease linear;
+    }
 
 }
 

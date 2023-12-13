@@ -1,17 +1,52 @@
-/* Error: Undefined variable.
- *   ,
- * 8 |     font-size: $base-font-size;
- *   |                ^^^^^^^^^^^^^^^
- *   '
- *   sass\index.scss 8:16  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 8 \2502      font-size: $base-font-size;\d\a   \2502                 ^^^^^^^^^^^^^^^\a   \2575 \a   sass\\index.scss 8:16  root stylesheet";
+/* Color Theme Swatches in RGBA */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Robato", sans-serif;
 }
+
+.page-header {
+  color: rgb(45, 98, 135);
+  background-color: rgb(174, 181, 191);
+}
+
+body {
+  color: rgb(174, 181, 191); /* Cool Grayish-Blue */
+}
+
+hr {
+  color: aqua;
+}
+
+.container {
+  background-color: rgb(174, 181, 191);
+  padding: 30px 20px;
+  border-color: 5px solid rgb(212, 168, 105);
+}
+.container h2 {
+  color: rgb(45, 98, 135);
+  font-size: 3rem;
+}
+.container i {
+  color: rgb(212, 168, 105); /* Warm Sandy */
+}
+.container p {
+  font-size: 1.5rem;
+}
+.container p b {
+  color: rgb(202, 110, 63);
+  font-size: 2rem;
+}
+.container ul li {
+  font-size: 1.5rem;
+}
+.container a {
+  color: rgb(202, 110, 63);
+}
+.container a:hover {
+  color: rgb(0, 1, 1);
+  transition: 0.3s ease linear;
+}
+
+/*# sourceMappingURL=style.css.map */

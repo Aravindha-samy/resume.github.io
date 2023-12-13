@@ -1,6 +1,12 @@
 
 
 $font-family:"Robato",sans-serif;
+$base-font-size:1rem;
+$font-size-m:$base-font-size*.75;
+$font-size-l:$base-font-size*1.5;
+$font-size-xl:$base-font-size*2;
+$font-size-xxl:$base-font-size*3;
+
 /* Color Theme Swatches in RGBA */
 $Mainbody-Color: rgba(174,181,191, 1);
 $Heading-Color-1: rgba(212,168,105, 1);
